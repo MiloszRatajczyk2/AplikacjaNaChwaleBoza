@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llSongAct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SongActivity">
+
+    <LinearLayout
+            android:id="@+id/llYT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.player.YouTubePlayerView
+                android:id="@+id/ytPV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.amar.library.ui.StickyScrollView
+            android:id="@+id/svSong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:stickyHeader="@+id/tvCh">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/tvBCh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/textTextClr"
+                    android:background="@color/bgTextClr"
+                    android:textSize="20sp"/>
+
+                <TextView android:id="@+id/tvCh"
+                          android:layout_width="wrap_content"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/textChClr"
+                          android:background="@color/bgChClr"
+                          android:translationZ="10dp"
+                          android:textSize="20sp"/>
+
+
+            <TextView
+                    android:id="@+id/tvACh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/textTextClr"
+                    android:background="@color/bgTextClr"
+                    android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </com.amar.library.ui.StickyScrollView>
+
+</LinearLayout>

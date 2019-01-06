@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       tools:context="com.miloszratajczyk.aplikacjanachwaleboza.SongActivity">
+
+    <item
+            android:id="@+id/menuPlay"
+            android:title="Odtwórz"
+            android:icon="@drawable/ic_headset_black_24dp"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/menuChords"
+            android:title="Chwyty"
+            android:icon="@drawable/ic_queue_music_black_24dp"
+            app:showAsAction="ifRoom"/>
+</menu>

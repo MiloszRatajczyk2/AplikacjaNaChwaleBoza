@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikacja Na Chwałę Bożą</string>
+    <string name="mainActTitleText">Chwała\nBogu!</string>
+    <string name="mainActSpiewnikiBtnText">Śpiewniki</string>
+    <string name="mainActBiblaBtnText">Biblia</string>
+    <string name="mainActKsiazkiBtnText">Książki</string>
+    <string name="mainActNagraniaBtnText">Nagrania</string>
+
+</resources>

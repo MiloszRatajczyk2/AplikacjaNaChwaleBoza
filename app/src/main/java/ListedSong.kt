@@ -1,0 +1,1 @@
+data class ListedSong(val title: String,val capo: String, val b_ch: String, val ch: String, val a_ch: String, val link: String)

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:context=".ListActivity">
+
+    <Button android:id="@+id/listActBtn01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnClick"
+            android:text="@string/listActPiesniPiegrzymowBtnText"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActBtnTextSize"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button android:id="@+id/listActBtn02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/lstActSpiewnikMalegoPielgrzymaBtnText"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActBtnTextSize"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button android:id="@+id/listActBtn03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/listActPiesniNaAkordeonBtnText"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActBtnTextSize"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button android:id="@+id/listActBtn04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/listActBialySpiewnikBtnText"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActBtnTextSize"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button android:id="@+id/listActBtn05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/listActPiesniPielgrzymaBtnText"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActBtnTextSize"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button android:id="@+id/listActBtn06"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/listActWedrowiecBtnText"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActBtnTextSize"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button android:id="@+id/listActBtn07"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/listActPiesniNowegoZyciaBtnText"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActBtnTextSize"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+</LinearLayout>
